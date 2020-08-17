@@ -11,16 +11,20 @@
     position: relative;
     width: 150px;
     height: 150px;
+    margin: 10px;
 }
 
 .img{
     position: absolute;
     top: 0;
     border-radius: 50%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #eeeeee;
 }
 
 .overlay:hover{
-    opacity: 0.75;
+    opacity: 0.90;
 }
 
 .overlay{
@@ -35,10 +39,14 @@
     opacity: 0;
     transition: 0.3s ease;
     background-color: #f2aead;
+    border-style: solid;
+    border-width: medium;
+    border-color: #aaaaaa;
 }
 
 .hovertext{
     color: white;
+    opacity: 1;
     font-size: 16px;
     font-weight: bold;
     position: absolute;
@@ -57,7 +65,8 @@ h1{
 }
 
 body{
-    background-color: #f2aead;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .container{
