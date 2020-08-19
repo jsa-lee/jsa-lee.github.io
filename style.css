@@ -12,18 +12,18 @@ p{
 }
 
 a:link{
-    color:#8e7cc3;
     font-weight: 400;
+    color:#8e7cc3;
 }
 
 a:visited{
-    color:#8e7cc3;
     font-weight: 400;
+    color:#8e7cc3;
 }
 
 a:hover{
-    color:#674ea7;
     font-weight: 400;
+    color:#8e7cc3;
     text-decoration: none;
 }
 
@@ -61,6 +61,12 @@ a:hover{
 }
 
 .btn-primary{
+    background-color: #8e7cc3;
+    border-color: #8e7cc3;
+    color: #ffffff;
+}
+
+.btn-primary:link{
     background-color: #8e7cc3;
     border-color: #8e7cc3;
     color: #ffffff;
