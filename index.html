@@ -1,155 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>home | alice lee</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Alice Lee">
+    <meta name="description" content="Alice Lee's portfolio/website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--bootstrap links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!--
-To the nosy source inspector reading this: I'm afraid there's nothing special here. I just used Bootstrap to make
-this website, lol
--->
+    <!--Google Fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
 
-<head>
-  <title>home | alice lee</title>
-  <meta charset="utf-8">
-  <meta name="author" content="Alice Lee">
-  <meta name="description" content="Alice Lee's portfolio/website">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!--bootstrap links-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- custom stylesheet link -->
+    <link rel="stylesheet" href="style.css">
 
-  <!--Google Fonts link-->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+    <!--favicon link-->
+    <link rel="icon" type="image/png" href="favicon.png">   
+  </head>
+  <body>
+    <div class="container mt-0 my-sm-3">
 
-  <!-- custom stylesheet link -->
-  <link rel="stylesheet" href="style.css">
+      <!--header-->
+      <ul class="nav d-flex">
+        <li class="nav-item ml-3 mr-auto mt-3 p-2">
+          <p class="homelink"><a class="title" href="index.html">Alice Lee <lang="zh-CN">李俊蒴</lang></a></p>
+        </li>
 
-  <!--favicon link-->
-  <link rel="icon" type="image/png" href="favicon.png">
-</head>
+        <li class="nav-item mt-3 p-2">
+          <a class="nav-link active" href="index.html">projects</a>
+        </li>
 
-<body>
-  <div class="container mt-0 mt-sm-3">
+        <li class="nav-item mt-3 p-2">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+      </ul>
 
-    <div class="row">
-      <!--whitespace-->
-      <div class="p-2"></div>
-    </div>
+      <!--intro-->
 
-    <div class="row">
-      <!--navbar and page title-->
-      <div class="col-1"></div>
-
-      <div class="col">
-        <h1>alice lee</h1>
-      </div>
-
-      <div class="col">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>   
-      </div>
-
-      <div class="col-1"></div>
-    </div>
-
-    <div class="row">
-      <!-- whitespace-->
-      <div class="p-2"></div>
-    </div>
-
-    <div class="row">
-      <!--homepage content-->
-      <div class="col-1"></div>
-
-      <div class="col intro">
-        <!--quick bio incl. self portrait-->
-        <div class="pt-5 pb-1 px-5">
-          <img src="portrait.png" alt="Self-portrait" height=200 width=200 class="mx-auto d-block">
+      <div class="row justify-content-center">
+        <div class="col-sm-9" style="text-align:center;">
+          <p class="bio">I'm Alice! UX researcher, UW Seattle MSIM class of 2021, UC Irvine Informatics class of 2020. 
+             Cool stuff I've done in the past: led <a class="bio-link" href="https://studentcouncil.ics.uci.edu/">ICS Student Council</a>,
+             organized <a class="bio-link" href="https://www.hackuci.com/">HackUCI</a> for three years!</p>
         </div>
-
-        <p>
-          UW Seattle MSIM class of 2021, UC Irvine Informatics class of 2020.
-          Cool stuff I've done in the past: led <a href="https://studentcouncil.ics.uci.edu/">ICS Student Council</a>, organized <a href="https://www.hackuci.com/">HackUCI</a>
-          for three years, played quidditch!
-        </p>
-
-      </div>
-      
-      <div class="col">
-        <!--links to project pages-->
-        <p>Read about some of my past work here:</p>
-
-        <div class="worklink">
-            <img class="img" src="smash.png" alt="smash.gg" height=150 width=150>
-
-            <a href="smashgg.html">
-              <div class="overlay">
-                <div class="hovertext">smash.gg UX eval</div>
-              </div>
-            </a>
-        </div>
-
-        <div class="worklink">
-          <img class="img" src="datingapps.png" alt="dating apps" height=150 width=150>
-
-          <a href="dating.html">
-            <div class="overlay">
-              <div class="hovertext">dating apps research</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="worklink">
-          <img class="img" src="hotbrass.png" alt="dating apps" height=150 width=150>
-
-          <a href="gameeval.html">
-            <div class="overlay">
-              <div class="hovertext">hot brass UX eval</div>
-            </div>
-          </a>
-        </div>
-
       </div>
 
-      <div class="col-1"></div>
+      <!--projects-->
 
-    </div>
-
-    <div class="row">
-      <!--contact navbar-->
-      <div class="col-1"></div>
-
-      <div class="col">
-        <table class="table">
-            <tbody>
-              <tr>
-                <td><a href="resume.pdf">Resume</a></td>
-                <td><a href="cv.pdf">CV</a></td>
-                <td><a href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
-                <td><a href="mailto:23alice.lee@gmail.com">Email</a></td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="row justify-content-center">
+        <p>Read about some of my work below:</p>
       </div>
-      
-      <div class="col-1"></div>
-    </div>
 
-    <div class="row">
+      <div class="card-deck mx-sm-5">
+        <div class="card">
+          <img class="card-img-top" src="datingapps.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Dating apps research</h5>
+            <p class="card-text">Published academic research work on dating app interfaces.</p>
+            <a href="dating.html" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="gaming.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">smash.gg UX evaluation</h5>
+            <p class="card-text">Conducting UX research on and recommending changes for esports management platform smash.gg.</p>
+            <a href="smashgg.html" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="hotbrass.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Hot Brass UX evaluation</h5>
+            <p class="card-text">Conducting UX research on and recommending changes for upcoming indie game Hot Brass.</p>
+            <a href="hotbrass.html" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <br/>
+
       <!--footer-->
-      <div class="col">
-        <p class="credit">made with <a href="changelog.html">♥</a></p>
-      </div>
+      <footer>
+        <!--contact navbar-->
+        <div class="row">         
+          <div class="col-1"></div>
+
+          <div class="col">
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <td><a class="footer-link" href="resume.pdf">Resume</a></td>
+                    <td><a class="footer-link" href="cv.pdf">CV</a></td>
+                    <td><a class="footer-link" href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
+                    <td><a class="footer-link" href="mailto:23alice.lee@gmail.com">Email</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          
+          <div class="col-1"></div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p class="credit">made with <a class="secret" href="changelog.html">♥</a></p>
+          </div>
+        </div>
+
+      </footer>
+
     </div>
-  
-  </div>
-  
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

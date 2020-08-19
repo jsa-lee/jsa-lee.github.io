@@ -6,124 +6,111 @@
         <meta name="author" content="Alice Lee">
         <meta name="description" content="Alice Lee's portfolio/website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
+        <!--bootstrap links-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    
+        <!--Google Fonts link-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    
+        <!-- custom stylesheet link -->
         <link rel="stylesheet" href="style.css">
 
-        <link rel="icon" type="image/png" href="favicon.png">
-    </head>
+        <!--favicon link-->
+        <link rel="icon" type="image/png" href="favicon.png">       
+      </head>
 
-    <body>
-        <div class="container">
-            <div class="row">
-                <!--whitespace-->
-                <div class="p-2"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-1"></div>
-            
-                <div class="col">
-                    <h1>alice lee</h1>
-                </div>
-            
-                <div class="col">
-                    <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    </ul>   
-                </div>
-            
-                <div class="col-1"></div>
-            </div>
-
-            <div class="row">
-                <!-- whitespace-->
-                <div class="p-2"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-1"></div>
-
-                <div class="col">
-                    <img src="abtsplash.png" class="img-fluid" class="mx-auto d-block" alt="about page splash image">
-                </div>
-
-                <div class="col-1"></div>  
-            </div>
-
-            <div class="row">
-                <div class="p-2"></div>
-            </div>
-    
-            <div class="row">
-                <div class="col-1"></div>
-
-                <div class="col">
-                    <p>
-                        I’m a UX designer, researcher, and project manager 
-                        who’s passionate about games and social computing. My dream is to 
-                        work in games and make an experience that can touch the hearts of 
-                        players all over the world.
-                    </p>
+      <body>
+        <div class="container mt-0 my-sm-3">
+            <!--header-->
+            <ul class="nav d-flex">
+                <li class="nav-item ml-3 mr-auto mt-3 p-2">
+                  <p class="homelink"><a href="index.html">Alice Lee <lang="zh-CN">李俊蒴</lang></a></p>
+                </li>
         
-                    <p>
-                        Over the course of my undergrad career, I’ve been the marketing 
-                        manager for <a href="https://www.facebook.com/anteaterquidditch/">Anteater Quidditch</a>, 
-                        written for <a href="https://esports.uci.edu/">UCI Esports</a>, and researched dating 
-                        apps with Prof. Roderic Crooks. I currently give back to my community by serving as 
-                        co-president of ICS Student Council and on the marketing board at Hack at UCI.
+                <li class="nav-item mt-3 p-2">
+                  <a class="nav-link active" href="index.html">projects</a>
+                </li>
+        
+                <li class="nav-item mt-3 p-2">
+                  <a class="nav-link" href="about.html">about</a>
+                </li>
+            </ul>
+
+            <!--body-->
+
+            <div class="row justify-content-center">
+                <div class col-sm-1></div>
+
+                <div class="col-sm-4">
+                    <img src="portrait.png">
+                </div>
+                <div class="col-sm-6" d-flex align-middle flex-wrap style="padding: 5%">
+                  <p class="bio">I'm a UX researcher passionate about games, emerging technologies, and the communities surrounding them.
+                </div>
+
+                <div class col-sm-1></div>
+            </div>
+
+            <br>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-10 justify-content-center">
+                    <p>I'm interested in how human biases influence emerging technologies, and in turn,
+                        how those technologies change us in return. My dream is to discover and create user experiences that change
+                        the lives of our most vulnerable peers for the better.<br>
+
+                        <br>
+
+                        My strengths as a UX researcher include conducting many kinds of evaluations in order to acquire design insights
+                        from an expert perspective. I also excel at surveying and interviewing target audiences to find what parts of
+                        software matter to them the most. Subsequently, I use those insights to inform my UX design process, and the
+                        results of my research show in my ideas, wireframes, and prototypes.<br>
+
+                        <br>
+
+                        Outside of UX, my interests are varied. I've worked in esports, organized hackathons, and even played competitive
+                        quidditch! I'm also interested in game dev; I designed a casual card game and am currently designing my own TTRPG 
+                        campaign. Feel free to talk to me about anything here!
                     </p>
-                            
-                    <p>
-                        Outside of my work, I like reading cultural studies papers, playing 
-                        Smash Ultimate (Isabelle, Bowser, and K. Rool main), and exploring 
-                        different fictional universes! If you’d like to connect with me, 
-                        you can find me on social media or email me at the links below.
-                    </p>
+                </div>
+            </div>
+
+            <br/>
+
+            <!--footer-->
+            <footer>
+                <!--contact navbar-->
+                <div class="row">         
+                <div class="col-1"></div>
+
+                <div class="col">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td><a href="resume.pdf">Resume</a></td>
+                            <td><a href="cv.pdf">CV</a></td>
+                            <td><a href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
+                            <td><a href="mailto:23alice.lee@gmail.com">Email</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
                 
                 <div class="col-1"></div>
-            </div>
-
-            <div class="row">
-                <!-- whitespace-->
-                <div class="p-2"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-1"></div>
-
-                <table class="table">
-                        <tbody>
-                            <tr>
-                            <td><a href="resume.pdf">Resume</a></td>
-                            <td><a href="cv.pdf">CV</a></td>
-                            <td><a href="https://github.com/jsa-lee">Github</a></td>
-                            <td><a href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
-                            <td><a href="mailto:23alice.lee@gmail.com">Email</a></td>
-                            </tr>
-                        </tbody>
-                </table>
-
-                <div class="col-1"></div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <p class="credit">made with <a href="changelog.html">♥</a></p>
                 </div>
-            </div>
 
+                <div class="row">
+                <div class="col">
+                    <p class="credit">made with <a class="secret" href="changelog.html">♥</a></p>
+                </div>
+                </div>
+
+            </footer>  
         </div>
-    </body>
 
+      </body>
 </html>
