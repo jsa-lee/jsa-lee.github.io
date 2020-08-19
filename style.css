@@ -27,6 +27,11 @@ a:hover{
     text-decoration: none;
 }
 
+.header-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .homelink{
     font-size: 25px;
     font-weight: 600;
