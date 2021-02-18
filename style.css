@@ -40,14 +40,8 @@ a:hover{
 }
 
 .homelink:hover {
-    color:#674ea7;
+    color:#000000;
     text-decoration: none;
-}
-
-.nav-link {
-    font-family: 'Montserrat';
-    font-weight: 200;
-    color: #8e7cc3;
 }
 
 .active{
@@ -89,6 +83,18 @@ a:hover{
     color: #ffffff;
 }
 
+.btn-link{
+    font-family: 'Montserrat';
+    font-weight: 200;
+    color: #8e7cc3;
+}
+
+.btn-link:hover{
+    font-family: 'Montserrat';
+    font-weight: 200;
+    color: #000000;
+}
+
 .credit{
     text-align: center;
 }
@@ -123,15 +129,16 @@ a:hover{
 
 .table td{
     text-align: center;
+    border-color: #ffffff;
 }
 
 .table-bordered{
     border: 2px solid;
-    border-color: #dddddd;
+    border-color: #ffffff;
 }
 
 .table-proj{
-    background:#eeeeee;
+    background:#EBE5FA;
 }
 
 .title{

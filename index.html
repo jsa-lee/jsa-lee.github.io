@@ -28,15 +28,27 @@
       <!--header-->
       <ul class="nav d-flex">
         <li class="nav-item ml-3 mr-auto mt-3 p-2">
-          <p class="homelink"><a class="title" href="index.html">Alice Lee <lang="zh-CN">李俊蒴</lang></a></p>
+          <p class="homelink"><a class="title" href="index.html">Alice Lee</a></p>
         </li>
 
         <li class="nav-item mt-3 p-2">
-          <a class="nav-link active" href="index.html">projects</a>
+          <a class="btn btn-link" href="about.html">about</a>
         </li>
 
+        <!--Projects dropdown button-->
         <li class="nav-item mt-3 p-2">
-          <a class="nav-link" href="about.html">about</a>
+          <div class="dropdown">
+            <a class="btn btn-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              projects
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="eligibility-form.html">WA unemployment form redesign</a>
+              <a class="dropdown-item" href="dating.html">Dating app research</a>
+              <a class="dropdown-item" href="smashgg.html">smash.gg UX evaluation</a>
+              <a class="dropdown-item" href="hotbrass.html">Hot Brass UX evaluation</a>
+            </div>
+          </div>
         </li>
       </ul>
 
@@ -44,8 +56,8 @@
 
       <div class="row justify-content-center">
         <div class="col-sm-9" style="text-align:center;">
-          <p class="bio">I'm Alice, UW Seattle MSIM class of 2021. I'm a UX researcher who's passionate about accessibility, 
-            inclusivity, and games!</p>
+          <p class="bio">I'm Alice, UW Seattle MSIM class of 2021. I'm a UX'er passionate about games, 
+            emerging technologies, and the communities surrounding them.</p>
         </div>
       </div>
 
@@ -56,6 +68,18 @@
       </div>
 
       <div class="card-deck mx-sm-5">
+
+        <!--Unemployment eligibility redesign link-->
+        <div class="card">
+          <img class="card-img-top" src="eligibility-form-icon.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">WA unemployment form redesign</h5>
+            <p class="card-text">Group project to digitize the Washington State unemployment eligibility form.</p>
+            <a href="eligibility-form.html" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+
+        <!--Dating apps research link-->
         <div class="card">
           <img class="card-img-top" src="datingapps.png" alt="Card image cap">
           <div class="card-body">
@@ -64,6 +88,8 @@
             <a href="dating.html" class="btn btn-primary">Read more</a>
           </div>
         </div>
+
+        <!--smash.gg UX eval link-->
         <div class="card">
           <img class="card-img-top" src="gaming.png" alt="Card image cap">
           <div class="card-body">
@@ -72,6 +98,8 @@
             <a href="smashgg.html" class="btn btn-primary">Read more</a>
           </div>
         </div>
+
+        <!--Hot Brass eval link-->
         <div class="card">
           <img class="card-img-top" src="hotbrass.png" alt="Card image cap">
           <div class="card-body">
@@ -80,6 +108,7 @@
             <a href="hotbrass.html" class="btn btn-primary">Read more</a>
           </div>
         </div>
+
       </div>
 
       <br/>
@@ -95,7 +124,6 @@
                 <tbody>
                   <tr>
                     <td><a class="footer-link" href="resume.pdf">Resume</a></td>
-                    <td><a class="footer-link" href="cv.pdf">CV</a></td>
                     <td><a class="footer-link" href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
                     <td><a class="footer-link" href="mailto:23alice.lee@gmail.com">Email</a></td>
                   </tr>
@@ -116,10 +144,6 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
+
 </html>
