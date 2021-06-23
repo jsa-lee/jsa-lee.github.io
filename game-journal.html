@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>game time journaling app | alice lee</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Alice Lee">
+        <meta name="description" content="Alice Lee's portfolio/website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <!--Google Fonts link-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    
+        <!-- custom stylesheet link -->
+        <link rel="stylesheet" href="style.css">
+
+        <!--favicon link-->
+        <link rel="icon" type="image/png" href="imgs/favicon.png">   
+      </head>
+
+      <body>
+        <div class="container mt-0 my-sm-3">
+            <!--header-->
+            <ul class="nav d-flex">
+                <li class="nav-item ml-3 mr-auto mt-3 p-2">
+                    <p class="homelink"><a class="title" href="index.html">Alice Lee</a></p>
+                </li>
+
+                <li class="nav-item mt-3 p-2">
+                    <a class="btn btn-link" href="about.html">about</a>
+                </li>
+
+                <li class="nav-item mt-3 p-2">
+                    <a class="btn btn-link" href="resume.pdf">resume</a>
+                </li>
+
+                <!--Projects dropdown button-->
+                <li class="nav-item mt-3 p-2">
+                <div class="dropdown">
+                    <a class="btn btn-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    projects
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="eligibility-form.html">WA unemployment form redesign</a>
+                    <a class="dropdown-item" href="dating.html">Dating app research</a>
+                    <a class="dropdown-item" href="smashgg.html">smash.gg UX evaluation</a>
+                    <a class="dropdown-item" href="hotbrass.html">Hot Brass UX evaluation</a>
+                    </div>
+                </div>
+                </li>
+            </ul>
+
+            <!--body-->
+
+            <div class="row justify-content-center">
+                <div class col-sm-1></div>
+
+                <div class="col-sm-4">
+                    <img class="header-img" src="imgs/gaming.png">
+                </div>
+                <div class="col-sm-6" d-flex align-middle flex-wrap style="padding: 5%">
+                    <p class="bio">I designed a game time journaling web app for players to visualize their time spent playing video games.
+                </div>
+
+                <div class col-sm-1></div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-1"></div>
+
+                <div class="col">
+
+                <!--role table-->
+            
+                    <table class="table table-bordered table-proj">
+                        <tr>
+                            <td>Role</td>
+                            <td>Project manager, UX researcher, UX designer (solo project)</td>
+                        </tr>
+
+                        <tr>
+                            <td>Duration</td>
+                            <td>April to May 2021 (8 weeks)</td>
+                        </tr>
+
+                        <tr>
+                            <td>Methods and tools</td>
+                            <td>Surveys, interviews, wireframing, Figma, usability tests</td>
+                        </tr>
+
+                    </table>
+
+                    <p>
+                        While part of the <a href="https://outintech.com/mentorship/">Out in Tech Mentorship</a> Spring 2021 cohort, I designed a web app to collect 
+                        and visualize personal data about time spent playing video games under the supervision of my 
+                        mentor, <a href="https://jonathancb.design/">Jonathan Corvin-Blackburn</a>. Over the course of eight weeks, I:   
+                    </p>
+
+                    <ul>
+                        <li>conducted generative research using surveys and interviews I designed myself,</li>
+                        <li>sketched out various ideas for web app features,</li>
+                        <li>wireframed my web app in Figma,</li>
+                        <li>conducted usability tests with members of my target audience, and</li>
+                        <li>implemented their feedback in a mid-fidelity prototype.</li>
+                    </ul>
+
+                    <h3>Research</h3>
+
+                    <img src="imgs/game-journal/research.png" alt="Survey and interview screenshots">
+
+                    <p>
+                        The first step I took was to conduct generative research into what my target audience wanted. 
+                        After all, an idea I might find useful might not be what other players like me need. I created 
+                        a preliminary survey using Google Forms that received 32 responses and learned that:   
+                    </p>
+
+                    <ul>
+                        <li>87.5% of respondents played games on a personal computer,</li>
+                        <li>90% of respondents used Steam to manage their digital games library,</li>
+                        <li>More than 50% of respondents did not consciously track the time they spent playing games,</li>
+                        <li>When asked about concerns related to using a journaling app, the vast majority of 
+                            respondents expressed concern about forgetting to add entries to their virtual journal, 
+                            compared with only about 23% of respondents who were concerned about their account 
+                            security.
+                        </li>
+                    </ul>
+
+                    <p>
+                        I also interviewed survey respondents who were interested in speaking further about their 
+                        experiences, and learned that what they wanted to learn from a journaling app was different 
+                        than what I had expected from other types of journaling apps. While I had focused solely on 
+                        visualizing time spent in-game and comparing that between different titles or consoles, my 
+                        interviewees wanted to use a journaling app to record their thoughts over periods of time, 
+                        closer to a diary. They also wanted to use the journaling app to manage their gaming time 
+                        and make sure they were not spending large amounts of time binge-playing games. The insights 
+                        I discovered from both my surveys and interviews informed my design process when I began to 
+                        ideate and sketch out key features for my web app.    
+                    </p>
+
+                    <h3>Design</h3>
+
+                    <!--Bootstrap carousel for sketches-->
+
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imgs/game-journal/form-sketch.png" class="d-block w-100" alt="Traditional form data entry sketch">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/game-journal/madlibs-sketch.png" class="d-block w-100" alt="Mad Libs data entry sketch">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/game-journal/menu-entry.png" class="d-block w-100" alt="Autofill data entry sketch">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/game-journal/emotion-entry.png" class="d-block w-100" alt="Emotion data entry sketch">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/game-journal/datavis-sketch.png" class="d-block w-100" alt="Data visualization ideas">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+
+                    <p>
+                        My initial sketches for data entry followed a more traditional form entry format, but I also 
+                        explored a “storytelling” sentence completion data entry format like a “Mad Libs” worksheet. 
+                        Based on the insight from my interviews where users were interested in using the web app like 
+                        a diary, as well as my own desire to distance the web app from work, I tried to ideate features 
+                        that were more playful and creative. I also sketched out in detail how data entry fields would 
+                        autofill based on previous input or third-party database integration -- I wanted the form to 
+                        autocomplete certain fields such as game titles or console names. Finally, I explored different 
+                        ways to visualize the data including bar charts, pie charts, heat maps, and even emoji clouds 
+                        (this was one I found the most playful and interesting to look at).
+                    </p>
+
+                    <img src="imgs/game-journal/lo-fi.png" alt="Low-fidelity wireframes">
+
+                    <p>
+                        Next, I implemented my sketches and initial ideas in a low-fidelity wireframe on Figma. At 
+                        this point in time, I was unconcerned about design aspects like fonts and color schemes -- 
+                        I just wanted to show how each feature worked, and even annotated certain sections using red 
+                        text. I was then able to conduct guided usability tests with survey respondents who expressed 
+                        interest in returning for further interviewing. The most important improvements my testers 
+                        asked for were:
+                    </p>
+
+                    <ul>
+                        <li><b>Customizing data visualization color schemes:</b> This would not only help create a distinct 
+                            color scheme for my web app, but also make the journaling app more personal (like a diary). 
+                            I went on a color palette generator side and picked some nice-looking categorical color 
+                            schemes for my graphs.
+                        </li>
+                        <li><b>Dark mode:</b> One tester mentioned that they exclusively used dark mode on websites and 
+                            apps that offered the alternate color scheme due to migraines they would get from looking 
+                            at bright screens for extended periods of time. This also reminded me to keep 
+                            accessibility in mind when designing my web app, so that all types of people can use my 
+                            journaling website (not just the able-bodied).
+                        </li>
+                        <li><b>Font for dyslexic users:</b> As above, testers expressed their desire for a dyslexia-friendly 
+                            font that would make it easier to navigate large blocks of text. I looked into adding 
+                            options for fonts like OpenDyslexic but also other dyslexia-friendly fonts like Comic 
+                            Sans.
+                        </li>
+                        <li><b>More descriptive tracker entry titles:</b> Before, I was saving game time entries only by the 
+                            date and time they were entered. Testers noted that it would be very hard to keep track of 
+                            distinct entries when the titles all looked the same. I added the title of the game played 
+                            in the data entry title to make them more distinct but still follow an organized format, 
+                            but in the future I might also explore ways to let users name the entries themselves.
+                        </li>
+                        <li><b>Customize types of data visualizations:</b> I asked testers whether pie or bar charts helped 
+                            them understand their game time more, but they all had different answers for which ones 
+                            they found the most useful. I then realized that because every user might want to use a 
+                            journaling app like this for a different reason (for example, to understand the types of 
+                            games they tend to play v.s. managing their time spent gaming overall). In the future, 
+                            I would iterate on different ways to allow users to choose the types of graphs they can 
+                            view in the data visualization section of the web app.
+                        </li>
+                    </ul>
+
+                    <p>
+                        You can view the  
+                        <a href="https://www.figma.com/proto/7QdDiTmVMB8ZkWqrL2GSxq/OIT-Game-tracker-lo-fi?node-id=1%3A2&scaling=scale-down&page-id=0%3A1"><b>mid-fidelity prototype here</b></a>, 
+                        as well as my 
+                        <a href="files/game-journal-slides.pdf"><b>mentorship graduation slides here</b></a>.
+                    </p>
+
+                    <h3>What I learned</h3>
+
+                    <p>
+                        Over the course of this project, I learned three important lessons:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <b>Accessible data visualization:</b> Initially, I was designing some more complicated types 
+                            of data visualizations for my apps such as area charts and heat maps. However, I realized 
+                            that the people I was testing my app with didn’t understand how to read these more 
+                            advanced graphs and preferred simpler options like pie charts and bar charts. In my haste 
+                            to prove my advanced knowledge of data visualization, I forgot that data visualizations 
+                            are only useful when readers can interpret them. When visualizing data in the future, I 
+                            need to remember to pick my graphs based on my target audience.
+                        </li>
+                        <li>
+                            <b>A11y-centered design:</b> My testers often mentioned the desire for options that would improve 
+                            readability due to certain temporary and permanent disabilities. As a relatively 
+                            able-bodied person, I had only thought to make sure I could interpret my own prototypes 
+                            when creating them. In the future, I need to continue to add features that will help all 
+                            types of users use my products, not just the able-bodied ones.
+                        </li>
+                        <li>
+                            <b>Games should be fun:</b> From various seminars and articles I watched and read on games user 
+                            experience, the big difference between games and other types of software is that games 
+                            should be fun to play. Throughout the course of this project, I tried to make sure that 
+                            this games-adjacent product is fun to use, and that filling in the forms doesn’t feel 
+                            like work. In fact, the biggest reason I abandoned the traditional form entry format was 
+                            that it began to seem too close to clocking in at work. If users began to see gaming time 
+                            journaling as a job, I would have failed in my responsibility to design a supplement 
+                            product for gaming, a fun hobby. To that end, I added playful aspects like a “Mad Libs” 
+                            data entry form, as well as an emoji selection screen to gauge sentiment over time. In 
+                            the future, I would add even more playful components to this web app in order to make 
+                            keeping track of playtime a fun activity in and of itself. 
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-1"></div>
+            </div>
+
+            <!--footer-->
+            <footer>
+                <!--contact navbar-->
+                <div class="row">         
+                <div class="col-1"></div>
+
+                <div class="col">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td><a href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
+                            <td><a href="mailto:23alice.lee@gmail.com">Email</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="col-1"></div>
+                </div>
+
+                <div class="row">
+                <div class="col">
+                    <p class="credit">made with <a class="secret" href="changelog.html">♥</a></p>
+                </div>
+                </div>
+
+            </footer>  
+        </div>
+
+      </body>
+</html>
