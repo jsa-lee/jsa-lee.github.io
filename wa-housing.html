@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>wa state housing prices | alice lee</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Alice Lee">
+        <meta name="description" content="Alice Lee's portfolio/website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <!--Google Fonts link-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    
+        <!-- custom stylesheet link -->
+        <link rel="stylesheet" href="style.css">
+
+        <!--favicon link-->
+        <link rel="icon" type="image/png" href="imgs/favicon.png">   
+      </head>
+
+      <body>
+        <div class="container mt-0 my-sm-3">
+            <!--header-->
+            <ul class="nav d-flex">
+                <li class="nav-item ml-3 mr-auto mt-3 p-2">
+                  <p class="homelink"><a class="title" href="index.html">Alice Lee</a></p>
+                </li>
+        
+                <li class="nav-item mt-3 p-2">
+                  <a class="btn btn-link" href="about.html">about</a>
+                </li>
+        
+                <li class="nav-item mt-3 p-2">
+                  <a class="btn btn-link" href="files/resume.pdf">resume</a>
+                </li>
+        
+                <li class="nav-item mt-3 p-2">
+                  <a class="btn btn-link" href="ux-projects.html">UX work</a>
+                </li>
+
+                <li class="nav-item mt-3 p-2">
+                    <a class="btn btn-link" href="data-vis.html">data vis</a>
+                  </li>
+              </ul>
+
+            <!--body-->
+
+            <div class="row justify-content-center">
+                <div class col-sm-1></div>
+
+                <div class="col-sm-4">
+                    <img class="header-img" src="imgs/gaming.png">
+                </div>
+                <div class="col-sm-6" d-flex align-middle flex-wrap style="padding: 5%">
+                    <p class="bio">I created a data visualization of how housing prices in Seattle have changed 
+                        over the past two decades.</p>
+                </div>
+
+                <div class col-sm-1></div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-1"></div>
+
+                <div class="col">
+
+                    <p>
+                        For my Interactive Information Visualization course at the University of Washington 
+                        Information School, I used Tableau to visualize the value of homes in various Washington 
+                        State cities from 1996 to 2017. During this group project, we were tasked with creating 
+                        an animated data visualization showing some sort of change over time (which was completely 
+                        new to me). As a young adult and renter, I’m interested in exploring housing price trends 
+                        which may affect the places I choose to rent in the future (or any homes I may consider 
+                        purchasing outright).
+   
+                    </p>
+
+                    <p>
+                        Our first task was to prep our dataset into a manageable format. The original dataset from 
+                        Zillow Research was massive -- it included data for housing prices in all 50 states and was 
+                        more than 1 gigabyte. We limited our usable dataset to just Washington State in particular, 
+                        for convenience’s sake and also because every group member had some personal stake in the area.  
+                    </p>
+
+                    <p>
+                        Next, I created a rough draft of the visualization in Tableau and conducted usability tests with 
+                        members of a potential target audience. We tried to capture a variety of perspectives, so we 
+                        interviewed everyone from students who had only rented to retirees who have purchased multiple 
+                        homes in their lifetimes. Through those usability tests, I was able to create an improved version 
+                        based on our interviewees’ suggestions, within the limits of my own ability.
+                    </p>
+
+                    <p>
+                        You can view the full interactive visualization on my 
+                        <a href="https://public.tableau.com/app/profile/alice.lee8549/viz/wa-housing_16159588102850/Combinedview">Tableau Public page</a> 
+                        (a screenshot is shown below).
+                    </p>
+
+                    <img src="imgs/housing-vis.png">
+
+                    <p>
+                        In the future when I create interactive data visualizations, I will be sure to keep some of the 
+                        suggestions I got in mind:
+                    </p>
+
+                    <ul>
+                        <li><b>Account for and try to fix missing data in a dataset:</b> Despite our best efforts, some data 
+                            values in our dataset were missing or otherwise difficult to work with. In the future, I will need 
+                            to carefully prep my dataset and make my data as complete as possible in order to create the best 
+                            possible visualization.
+                        </li>
+                        <li><b>Compare with other, similar values:</b> Many of our interviewees wondered how housing prices 
+                            in Washington State compared to those of different parts of the country, and if economic events 
+                            like the 2008 recession affected all parts of the country similarly. We were unfortunately unable 
+                            to include these due to time constraints, but if I had more time to dedicate to this project in 
+                            the future, I would return to this dataset and include information such as a national or regional 
+                            average home value.
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-1"></div>
+            </div>
+
+            <!--footer-->
+            <footer>
+                <!--contact navbar-->
+                <div class="row">         
+                <div class="col-1"></div>
+
+                <div class="col">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td><a href="https://www.linkedin.com/in/jsalee/">Linkedin</a></td>
+                            <td><a href="mailto:23alice.lee@gmail.com">Email</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="col-1"></div>
+                </div>
+
+                <div class="row">
+                <div class="col">
+                    <p class="credit">made with <a class="secret" href="changelog.html">♥</a></p>
+                </div>
+                </div>
+
+            </footer>  
+        </div>
+
+      </body>
+</html>
